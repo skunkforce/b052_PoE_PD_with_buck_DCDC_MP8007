@@ -205,6 +205,8 @@
     (at 90.9 79.5 -90)
     (descr "Inductor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
+    (property "Digi-Key_PN" "587-6228-1-ND")
+    (property "MPN" "EST0645T220MDGA")
     (property "Sheetfile" "Controller.kicad_sch")
     (property "Sheetname" "Controller")
     (path "/00000000-0000-0000-0000-00006083c3a8/00000000-0000-0000-0000-000060b44b88")
@@ -1000,7 +1002,7 @@
   (gr_text "osf.013" (at 79.85 74.8) (layer "F.SilkS") (tstamp 9fea308e-d48e-4903-b0fd-05a075600c1c)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "osf.b051.v1.0" (at 101.5 78.5) (layer "F.SilkS") (tstamp f46026bb-e3fb-4f0b-849e-c35a0739177e)
+  (gr_text "osf.b052.v1.0" (at 101.5 78.5) (layer "F.SilkS") (tstamp f46026bb-e3fb-4f0b-849e-c35a0739177e)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
