@@ -1,12 +1,17 @@
-# test 1
+# initialization test
 ## setup
-Describe your test setup
+Connected b004 to b052 and 100R between pinns 1 and 10 of J2
 ## results
-Describe your results
+initialization works on a standard PoE switch.
 
 
-# test 2
+# current test
 ## setup
-Describe your test setup
+Connected b004 to b052 and a variable resistor between pinns 1 and 10 of J2
 ## results
-Describe your results
+| current | voltage | ripple |
+|--|--|--|
+|100mA|5V|250mA|
+|500mA|4.9V|210mA|
+|1A|4.8V|200mA|
+|1.3A|4.8V|200mA|
