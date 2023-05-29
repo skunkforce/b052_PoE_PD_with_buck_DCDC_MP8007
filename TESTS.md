@@ -1,13 +1,25 @@
 # initialization test
 ## setup
-Connected b004 to b052 and 100R between pinns 1 and 10 of J2
+Connected 
+```mermaid
+flowchart LR
+  b004 --> b052 
+  b052 --> r[100R between pinns 1 and 10 of J2]
+  
+```
 ## results
 initialization works on a standard PoE switch.
 
 
 # current test
 ## setup
-Connected b004 to b052 and a variable resistor between pinns 1 and 10 of J2
+Connected
+```mermaid
+flowchart LR
+  b004 --> b052 
+  b052 --> r[ariable resistor between pinns 1 and 10 of J2]
+  
+```
 ## results
 | current | voltage | ripple |
 |--|--|--|
